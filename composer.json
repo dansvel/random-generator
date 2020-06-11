@@ -1,6 +1,6 @@
 {
     "name": "setengahmanusia/random-generator",
-    "description": "all kind random generator",
+    "description": "PHP random string generator, readable and not",
     "keywords": [
         "setengahmanusia",
         "random-generator"
