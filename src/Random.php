@@ -1,12 +1,12 @@
 <?php
 
-namespace Setengahmanusia\RandomGenerator;
+namespace danUnhuman\RandomGenerator;
 
 use Exception;
 
 /**
  * Class RandomGenerator
- * @package Setengahmanusia\RandomGenerator
+ * @package dan-unhuman\RandomGenerator
  */
 class Random
 {

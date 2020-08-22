@@ -1,17 +1,17 @@
 {
-    "name": "setengahmanusia/random-generator",
+    "name": "dan-unhuman/random-generator",
     "description": "PHP random string generator, readable and not",
     "keywords": [
-        "setengahmanusia",
+        "dan-unhuman",
         "random-generator"
     ],
-    "homepage": "https://github.com/setengahmanusia/random-generator",
+    "homepage": "https://github.com/dan-unhuman/random-generator",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
             "name": "dan",
-            "email": "48936611+setengahmanusia@users.noreply.github.com",
+            "email": "48936611+dan-unhuman@users.noreply.github.com",
             "role": "Developer"
         }
     ],
@@ -20,12 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Setengahmanusia\\RandomGenerator\\": "src"
+            "danUnhuman\\RandomGenerator\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Setengahmanusia\\RandomGenerator\\Tests\\": "tests"
+            "danUnhuman\\RandomGenerator\\Tests\\": "src"
         }
     },
     "scripts": {
