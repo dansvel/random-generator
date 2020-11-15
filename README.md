@@ -7,13 +7,13 @@ This random generator can generate string for human readable or indecipherable.
 You can install the package via composer:
 
 ```bash
-composer require dan-unhuman/random-generator
+composer require dansvel/random-generator
 ```
 
 ## Usage
 
 ``` php
-use dan-unhuman\RandomGenerator\Random;
+use dansvel\RandomGenerator\Random;
 ```
 
 ### Human readable

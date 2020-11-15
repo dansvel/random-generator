@@ -1,12 +1,12 @@
 <?php
 
-namespace danUnhuman\RandomGenerator;
+namespace dansvel\RandomGenerator;
 
 use Exception;
 
 /**
  * Class RandomGenerator
- * @package dan-unhuman\RandomGenerator
+ * @package dansvel\RandomGenerator
  */
 class Random
 {
@@ -56,14 +56,22 @@ class Random
         $charset = [
             0 => $num = '0123456789',
             'a' => $low = 'qwertyuiopasdfghjklzxcvbnm',
-            'A' => $up = strtoupper($low),
+            'A' => $up = 'QWERTYUIOPASDFGHJKLZXCVBNM',
             'aA' => $low.$up,
+            'Aa' => $low.$up,
             '0a' => $num.$low,
+            'a0' => $num.$low,
             '0A' => $num.$up,
+            'A0' => $num.$up,
             '0aA' => $num.$low.$up,
+            '0Aa' => $num.$low.$up,
+            'Aa0' => $num.$low.$up,
+            'A0a' => $num.$low.$up,
+            'aA0' => $num.$low.$up,
+            'a0A' => $num.$low.$up,
         ];
 
-        if (!array_key_exists($char_type, $charset)) throw new Exception('Unhandled char type! Please use "0", "a", "A", "aA", "0a", "0A" or "0aA".');
+        if (!array_key_exists($char_type, $charset)) throw new Exception('Unhandled char type! Please use "0", "a", "A", or combination of them.');
 
         $charset = $charset[$char_type];
         $char_length = strlen($charset);
