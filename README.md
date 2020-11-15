@@ -49,9 +49,9 @@ echo Random::inhumane(16,'0'); // 5370719465476519
 echo Random::inhumane(16,'a'); // kaqotdyeyfauztls
 echo Random::inhumane(16,'A'); // IWJLLMBWSTTLCMFM
 echo Random::inhumane(16,'aA'); // soMSTjnaiBHkczhx
-echo Random::inhumane(16,'0a'); // ocnanzi0wqu083d9
 echo Random::inhumane(16,'0A'); // WQT4I4O2BWHCUAVJ
 echo Random::inhumane(16,'0aA'); // aa9LyynlVmfjA4Ht
+// you can use combination of 0 a and A in unordered
 ```
 
 ## License

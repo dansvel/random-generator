@@ -3,6 +3,8 @@
     "description": "PHP random string generator, readable and not",
     "keywords": [
         "dansvel",
+        "php",
+        "random",
         "random-generator"
     ],
     "homepage": "https://github.com/dansvel/random-generator",
